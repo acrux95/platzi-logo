@@ -13,7 +13,7 @@ body {
     /* background: red; */
     transform: rotate(45deg);
     animation-name: platzi-base;
-    animation-duration: 3.5s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     
 }
@@ -27,7 +27,7 @@ body {
     position: relative;
     top: 1px;
     animation-name: platzi-left;
-    animation-duration: 3.5s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-delay: 1s;
 }
@@ -45,12 +45,13 @@ body {
         transform: scale(.3) rotate(0deg);
         
     }
-    30%{
+    25%{
         opacity: 1;
         transform: scale(.8) rotate(405deg);
         
     }
-    80%{
+
+    75%{
         opacity: 1;
         transform: scale(.8) rotate(405deg);
         
@@ -65,13 +66,13 @@ body {
     0% {
         width: 100%;
     }
-    20% {
+    25% {
         width: 80%;
     }
     50% {
         width: 80%;
     }
-    70% {
+    75% {
         width: 100%;
     }
     100% {
